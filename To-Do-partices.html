@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do-To-List</title>
+    <link rel="stylesheet" href="C:\Users\HP\Desktop\amank.html\To-Do.css">
+</head>
+<body>
+    <h1>To-Do-List</h1>
+    <input type="text" id="taskInput" placeholder="Enter a new task">
+    <button onclick="addTask()">Add</button>
+
+    <ul id="taskList"></ul>
+</body>
+
+      <script>
+        function addTask() {
+            const taskInput = document.getElementById('taskInput');
+            const taskText = taskInput.value.trim();
+
+            if (taskText === '') {
+                alert('please enter a task');
+                return;
+            }
+
+            const li = document.createElement('li');
+            li.textContent = taskText;
+
+            li.onclick = function() {
+                this.classList.toggle('completed');
+            };
+
+            const deleteButton = document.createElement('button');
+            deleteButton.textContent = 'Delete';
+            deleteButton.className = 'delete';
+            deleteButton.onclick = function() {
+                this.parentElement.remove();
+            };
+
+            li.appendChild(deleteButton);
+            document.getElementById('taskList').appendChild(li);
+
+            taskInput.value = '';
+        }
+      </script>
+
+
+</html>

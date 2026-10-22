@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider-2</title>
+    <!-- <link rel="stylesheet" href="C:\Users\HP\Desktop\amank.html\slider-2.css"> -->
+     <style>
+        .slide{
+            display: none;
+        }
+        .active{
+            display: block;
+        }
+        .slide{
+            width: 100%;
+            height: 600px;
+        }
+        .slide > img {
+            width: 100%;
+            height: 675px;
+        }
+
+        .box,button{
+            bottom: 300px;
+        }
+
+        #left{
+            width: 30px;
+            height: 45px;
+            font-size: 55px;
+            position: relative;
+            inset-inline-start: 1%;
+            border: none;
+            background-color: transparent;
+            transition: 1s;
+            color: black;
+            
+        }
+
+        #left:hover{
+            color: bisque;
+            transition: 1s;
+        }
+
+        #right{
+            width: 30px;
+            height: 45px;
+            font-size: 55px;
+            position: relative;
+            inset-inline-start: 94%;
+            border: none;
+            background-color: transparent;
+            transition: 1s;
+            color: black;
+        }
+
+        #right:hover{
+            color: bisque;
+            transition: 1s;
+        }
+
+     </style>
+</head>
+<body>
+    <div class="box">
+        <div class="slide">
+            <img src="C:/Users/HP/Downloads/sebastian-coman-travel-dtOTQYmTEs0-unsplash.jpg" alt="">
+        </div>
+        <div class=" slide active">
+            <img src="C:/Users/HP/Downloads/ethan-robertson-SYx3UCHZJlo-unsplash.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="C:/Users/HP/Downloads/jose-pinto-BGZRtMrwfa0-unsplash.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="C:/Users/HP/Downloads/n1ce-Rms5va8rZZs-unsplash.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="C:/Users/HP/Downloads/yunshuo-qu-knnVBN7-wL4-unsplash.jpg" alt="">
+        </div>
+        <button id="left" onclick="left();">&lt;</button> <button id="right" onclick="right();">&gt;</button>
+    </div>
+</body>
+
+     <script>
+        let current=0;
+        let slide = document.querySelectorAll('.slide');
+
+        function left() {
+            for (var i = 0; i < slide.length; i++) {
+            slide[i].classList.remove('active');
+            }
+            current--;
+            if(current<0){
+                current = (slide.length-1);
+            }
+            slide[current].classList.add('active');
+        }
+
+        function right() {
+            for (var i = 0; i < slide.length;  i++) {
+            slide[i].classList.remove('active');
+            }
+            current++;
+            if(current>slide.length-1) {
+                current = 0;
+            }
+            slide[current].classList.add('active');
+        }
+        setInterval(right,1000);
+     </script>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>queryselector Example</title>
+</head>
+<body>
+    <p id="myParagraph">Click the button to change this text.</p>
+    <button id="myButton">Click Me </button>
+</body>
+<script>
+    const button = document.querySelector('#myButton');
+    button.addEventListener('click', () => {
+        const Paragraph = document.querySelector('#myParagraph');
+        Paragraph.textContent = 'The text has been changed!';
+    });
+</script>
+</html>

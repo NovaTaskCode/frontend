@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home1 class</title>
+    <link rel="stylesheet" href="C:\Users\HP\Desktop\amank.html\home1.css">
+</head>
+<body>
+    <center>
+        <h1>Mobile Number Validation using JavaScript</h1>
+        <label>Enter Mobile Number</label> <input type="text" id="t1" placeholder="Enter 10 digit Mobile Number"/>
+        <br><span id="s1" style="color: red;"></span>
+        <input type="button"id="v1" value="Validate" onclick="Validate()"/>
+    </center>
+</body>
+<script>
+    function Validate()
+    {
+        var mob=document.getElementById("t1").value;
+        if(mob=="")
+    {
+        document.getElementById("s1").innerHTML="Please Enter the Mobile Number";
+    }
+    else if(isNaN(mob))
+    {
+        document.getElementById("s1").innerHTML="Please Enter Only Digits";
+    }
+    else if(mob.length!=10)
+    {
+        document.getElementById("s1").innerHTML="Please Enter 10 Digits Number";
+    }
+    else if(!(mob.startsWith("9")||mob.startsWith("8")||mob.startsWith("7")))
+    {
+        document.getElementById("s1").innerHTML="Please Enter valid mobile Number";
+    }
+    else
+    {
+        document.getElementById("s1").innerHTML="Ok, You Entered a Valid Mobile Number";
+    }
+
+    }
+</script>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doller to Rupee to doller Convertor</title>
+</head>
+<body>
+    <h4>96.83 Indian Rupee</h4>
+    <input type="number" id="t1" value="1" onblur="doller_to_rupee(this.value)"/> Doller <br/> <br/>
+    <input type="number" id="t2" value="96.83" onblur="rupee_to_doller(this.value)"/> Rupee
+</body>
+
+      <script>
+
+        function doller_to_rupee(amt)
+        {
+            rs=amt*96.83
+            document.getElementById("t2").value=rs;
+        }
+        function rupee_to_doller(amt)
+        {
+            rs=amt/96.83
+            document.getElementById("t1").value=rs;
+        }
+
+
+
+      </script>
+
+</html>

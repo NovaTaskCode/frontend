@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* start container code*/
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* end container */
+
+/* start company */
+
+.company{
+    width: 100%;
+    height: 400px;
+    background-color: skyblue;
+}
+
+/* end company */

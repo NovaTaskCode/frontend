@@ -1,0 +1,1368 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* start container code */
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* end of container */
+
+
+/* start header */
+
+.header{
+    width:  100%;
+    height: 90px;
+    background-color: white;
+    position: fixed;
+}
+
+.header h1,ul,li,button{
+    display: inline-block;
+}
+
+.header h1{
+    padding-top: 25px;
+    margin-left: 120px;
+    font-size: 35px;
+    color: rgb(35,191,139);
+}
+
+.header ul{
+    margin-inline: 50px;
+}
+
+.header li{
+    margin-left: 35px;
+}
+
+.header li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.header a:hover{
+    color: aquamarine;
+    font-size: 22px;
+}
+
+.header button{
+    height: 43px;
+    width: 145px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(45,170,126);
+    color: white;
+}
+
+.header button:hover{
+    background-color: aquamarine;
+    color: black;
+    border: none;
+}
+
+
+/* end header */
+
+
+/* start herosection */
+
+.herosection{
+    width: 100%;
+    height: 570Px;
+    background: url("C:/Users/HP/Downloads/background-tree-book-wallpaper-preview.jpg");
+    background-size: cover;
+
+}
+
+.herosection h1{
+    padding-top: 180px;
+    margin-left: 110px;
+    font-size: 50px;
+    color: white;
+}
+
+.herosection p{
+    margin-left: 110px;
+    color: white;
+     word-spacing: 1px;
+     letter-spacing: 2px;
+     margin-top: 10px;
+     font-size: 20px;
+    
+}
+
+.herosection button{
+    height: 45px;
+    width: 150px;
+    margin-left: 110px;
+    margin-top: 80px;
+    border-radius: 25px;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+}
+
+.herosection button:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+/* end herosection */
+
+
+/* start third */
+
+.third{
+    width: 100%;
+    height: 600px;
+    background-color: bisque;
+      
+}
+
+.third .three{
+    width: 39%;
+    height: 500px;
+    /* border: solid 2px ; */
+    display: inline-block;
+    
+    margin-left: 40px;
+    
+}
+
+.third .three h1{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.third .three p{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: gray;
+}
+
+.third .three li{
+    margin-top: 10px;
+    margin-left: 10px; 
+    color: gray;
+}
+
+.third .three button{
+    width: 145px;
+    height: 43px;
+    background-color: rgb(19, 212, 42);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.third .three button:hover{
+    background-color:  rgb(108, 250, 125);
+    color: black;
+    border: none;
+}
+
+.third button,i{
+    font-size: 15px;
+    margin-left: 10px;
+    
+    
+    
+}
+
+.third .three2{
+    width: 49%;
+    height: 500px;
+    display: inline-block;
+    margin-top: 30px;
+    
+}
+
+.third .three2{
+    width: 48.6%;
+    height: 500px;
+    background: url("C:/Users/HP/Downloads/0_7EADT-fTJbCLRUzO.jpg");
+    background-size: cover;
+}
+
+
+/* end third */
+
+
+/* start number */
+
+.number{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(248, 246, 246);
+}
+
+.number li{
+    font-size: 51px;
+    padding-top: 45px;
+    color: rgba(0, 204, 0, 0.793);
+    font-weight: bold;
+    margin-inline: 133px;
+    
+}
+
+.name p{
+    display: inline;
+    margin-inline: 140px;
+    font-size: 18px;
+    color: rgb(155, 154, 154);
+    
+    
+
+}
+
+/* end number */
+
+
+/* start bigcard */
+
+.bigcard{
+    width: 100%;
+    height: 550px;
+    /* background-color: yellow; */
+    
+}
+
+.bigcard .side{
+    width: 21%;
+    height: 430px;
+    border: solid 1px rgb(219, 219, 219);
+    display: inline-block;
+    margin-inline: 5px;
+}
+
+.bigcard .side1{
+    width: 27%;
+    margin-left: 25px;
+    background-color: green;
+    padding: 15px;
+    border: solid 1px green;
+    margin-top: 50px;
+    
+}
+
+.bigcard h2{
+    margin-top: 50px;
+    margin-left: 26px;
+    color: white;
+    font-size: 30px;
+ }
+
+.bigcard p{
+    margin-top: 30px;
+    margin-left: 26px;
+    word-spacing: 2px;
+    color: white;
+    font-size: 18px;
+}
+
+.bigcard button{
+    height: 50px;
+    width: 180px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 25px;
+    border: none ;
+    background-color: rgb(45,170,126);
+    color: white;
+}
+.bigcard button:hover{
+    background-color: aquamarine;
+    color: black;
+    border: none;
+}
+
+ .side2{
+    background-color: #ffffff;
+    padding: 15px;
+    display: inline-block;
+    
+     
+}
+
+.bigcard .side2 i{
+    margin-left: 128px;
+    margin-top: 119px; 
+    font-size: 30px;
+    color: rgb(19, 212, 42);
+}
+
+.side2 i:hover{
+    width: 18%;
+    height: 51px;
+    background-color: rgb(19, 212, 42);
+    border-radius: 50%;
+    padding-top: 10px;
+    color: white;
+}
+
+.side2 h3{
+    text-align: center;
+    font-size: 21px;
+    padding-top: 80px;
+
+}
+
+.side2 p{
+    padding-top: 10px;
+    margin-left: 30px;
+    color: rgb(145, 145, 145);
+    word-spacing: 1px;
+}
+
+.side3{
+    background-color: #ffffff;
+    border-radius: 1px;
+    
+}
+
+.bigcard .side3 i{
+    margin-left: 130px;
+    margin-top: 129px;
+    font-size: 30px;
+    color: rgb(19, 212, 42);
+    
+}
+
+.side3 i:hover{
+    width: 18%;
+    height: 51px;
+    background-color: rgb(19, 212, 42);
+    border-radius: 50%;
+    padding-top: 11px;
+    color: white;
+}
+
+.side3 h3{
+    text-align: center;
+    font-size: 21px;
+    padding-top: 85px;
+    margin-right: 21px;  
+}
+
+.side3 p{
+    padding-top: 10px;
+    margin-left: 5px;
+    word-spacing: 1px;
+    text-align: center;
+    color: rgb(145,145,145);
+}
+
+.side4{
+    background-color: #ffffff;
+    
+}
+
+.side4 i{
+    margin-left: 130px;
+    margin-top: 128px;
+    color: rgb(19, 212, 42);
+    font-size: 30px;
+}
+
+.side4 i:hover{
+    width: 18%;
+    height: 52px;
+    background-color: rgb(19, 212, 42);
+    border-radius: 50%;
+    padding-top: 12px;
+    color: white;
+}
+
+.side4 h3{
+    text-align: center;
+    font-size: 21px;
+    padding-top: 85px;
+    margin-right: 20px;
+}
+
+.side4 p{
+    padding-top: 11px;
+    margin-left: 5px;
+    word-spacing: 2px;
+    text-align: center;
+    color: rgb(145, 145, 145);
+}
+
+
+/* end bigcard */
+
+
+/* start cards */
+
+.cards{
+    width: 100%;
+    height: 300px;
+    /* background-color: beige; */
+    padding-block: 25px;
+    padding-left: 6%;
+    padding-top: 45px;
+    
+}
+
+.cards .rules{
+    width: 21%;
+    height: 55px;
+    border: solid 1px rgb(219, 219, 219);
+    display: inline-block;
+    margin-inline: 1% ;
+}
+
+.cards .rules i{
+    margin-left: 25px;
+}
+
+.cards .rules a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;   
+}
+
+.cards .rules h3{
+    padding-top: 14px;
+    
+}
+
+.cards .rules a:hover{
+    color: aquamarine;
+    
+}
+
+.cards .rules2{
+    width: 21%;
+    height: 55px;
+    border: solid 1px rgb(219, 219, 219);
+    display: inline-block;
+    margin-inline: 1% ;
+}
+
+.cards .rules2 i{
+    margin-left: 25px;
+}
+
+.cards .rules2 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+.cards .rules2 h3{
+    padding-top: 14px;
+}
+
+.cards .rules2 a:hover{
+    color: aquamarine;
+}
+
+.cards .rules3{
+     width: 21%;
+    height: 55px;
+    border: solid 1px rgb(219, 219, 219);
+    display: inline-block;
+    margin-inline: 1% ;
+}
+
+.cards .rules3 i{
+    margin-left: 25px;
+}
+
+.cards .rules3 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.cards .rules3 h3{
+     padding-top: 14px;
+}
+
+.cards .rules3 a:hover{
+    color: aquamarine;
+}
+
+.cards .rules4{
+     width: 21%;
+    height: 55px;
+    border: solid 1px rgb(219, 219, 219);
+    display: inline-block;
+    margin-inline: 1% ;
+}
+
+.cards .rules4 i{
+    margin-left: 25px;
+}
+
+.cards .rules4 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.cards .rules4 h3{
+    padding-top: 14px;
+}
+
+.cards .rules4 a:hover{
+    color: aquamarine;
+}
+
+.cards .rules5{
+     width: 21%;
+    height: 55px;
+    border: solid 1px rgb(219, 219, 219);
+    display: inline-block;
+    margin-inline: 1% ;
+    margin-top: 25px;
+    /* padding-top: 25px; */
+}
+
+.cards .rules5 i{
+    margin-left: 25px;
+}
+
+.cards .rules5 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.cards .rules5 h3{
+    padding-top: 14px;
+}
+
+.cards .rules5 a:hover{
+    color: aquamarine;
+}
+
+.cards .rules6{
+     width: 21%;
+    height: 55px;
+    border: solid 1px rgb(219, 219, 219);
+    display: inline-block;
+    margin-inline: 1% ;
+}
+
+.cards .rules6 i{
+    margin-left: 25px;
+}
+
+.cards .rules6 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.cards .rules6 h3{
+    padding-top: 14px;
+}
+
+.cards .rules6 a:hover{
+    color: aquamarine;
+}
+
+.cards .rules7{
+     width: 21%;
+    height: 55px;
+    border: solid 1px rgb(219, 219, 219);
+    display: inline-block;
+    margin-inline: 1% ;
+}
+
+.cards .rules7 i{
+    margin-left: 25px;
+}
+
+.cards .rules7 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.cards .rules7 h3{
+    padding-top: 14px;
+}
+
+.cards .rules7 a:hover{
+    color: aquamarine;
+}
+
+.cards .rules8{
+     width: 21%;
+    height: 55px;
+    border: solid 1px rgb(219, 219, 219);
+    display: inline-block;
+    margin-inline: 1% ;
+}
+
+.cards .rules8 i{
+    margin-left: 25px;
+}
+
+.cards .rules8 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.cards .rules8 h3{
+    padding-top: 14px;
+}
+
+.cards .rules8 a:hover{
+    color: aquamarine;
+}
+
+.cards .rules9{
+     width: 21%;
+    height: 55px;
+    border: solid 1px rgb(219, 219, 219);
+    display: inline-block;
+    margin-inline: 1% ;
+    
+}
+
+.cards .rules9 i{
+    margin-left: 25px;
+}
+
+.cards .rules9 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.cards .rules9 h3{
+    padding-top: 14px;
+}
+
+.cards .rules9 a:hover{
+    color: aquamarine;
+}
+
+.cards .rules10{
+    width: 21%;
+    height: 55px;
+    border: solid 1px rgb(219, 219, 219);
+    display: inline-block;
+    margin-inline: 1% ;
+    
+}
+
+.cards .rules10 i{
+    margin-left: 25px;
+}
+
+.cards .rules10 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.cards .rules10 h3{
+    padding-top: 14px;
+}
+
+.cards .rules10 a:hover{
+    color: aquamarine;
+}
+
+.cards .rules11{
+    width: 21%;
+    height: 55px;
+    border: solid 1px rgb(219, 219, 219);
+    display: inline-block;
+    margin-inline: 1% ;
+    margin-top: 25px;
+}
+
+.cards .rules11 i{
+    margin-left: 25px;
+}
+
+.cards .rules11 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.cards .rules11 h3{
+    padding-top: 14px;
+}
+
+.cards .rules11 a:hover{
+    color: aquamarine;
+}
+
+.cards .rules12{
+    width: 21%;
+    height: 55px;
+    border: solid 1px rgb(219, 219, 219);
+    display: inline-block;
+    margin-inline: 1% ;
+}
+
+.cards .rules12 i{
+    margin-left: 25px;
+}
+
+.cards .rules12 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.cards .rules12 h3{
+    padding-top: 14px;
+}
+
+.cards .rules12 a:hover{
+    color: aquamarine;
+}
+
+
+/* end cards */
+
+
+/* start courses */
+
+.courses{
+    width: 100%;
+    height: 700px;
+    /* background-color: blueviolet; */
+    
+    
+}
+
+.courses p{
+    margin-left: 120px;
+    padding-top: 40px;
+    color: gray;
+} 
+
+
+.courses h2{
+    margin-left: 120px;
+    font-size: 35px;
+    font-weight: 400px;
+}
+
+.courses .learning{
+    width: 28%;
+    height: 530px;
+    border: solid 2px rgb(219, 219, 219);
+    display: inline-block;
+    border-radius: 4px;
+    margin-left: 120px;
+    margin-top: 50px;
+    
+    
+}
+
+.courses .learning1 img{
+    width: 100%;
+    height: 275px;
+    display: block;
+
+}
+
+.courses .webs h4,li{
+    display: inline-block;
+}
+
+.courses .webs h4{
+    width: 35%;
+    height: 30px;
+    margin-left: 10px;
+    background-color: rgb(19,212,42);
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    margin-top: 10px;
+}
+
+.courses .webs li{
+    font-weight: bold;
+    color: rgb(96, 96, 96);
+    margin-left: 210px;
+}
+
+.courses .webs h3{
+    padding-top: 15px;
+}
+
+.courses .webs a{
+    text-decoration: none;
+    color: black;
+    margin-left: 12px;
+}
+
+.courses .webs a:hover{
+    color: rgb(19,212,42);
+}
+
+.courses .webs p{
+    height: 80px;
+    width: 94%;
+    margin-left: 12px;
+    padding-top: 16px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    /* border-bottom-width: 1px; */
+}
+
+.courses .webs2 img{
+    width: 10%;
+    height: 42px;
+    margin-left: 10px;
+    margin-top: 10px; 
+    border-radius: 50%;
+    
+}
+
+.courses .webs2 img,h5{
+    display: inline-block;
+}
+
+.courses .webs2 h5{
+    margin-left: 8px;
+    display: inline-block;
+    color: gray;
+    
+}
+
+.courses .webs3{
+    display: inline-block;
+}
+
+.courses .webs3 span{
+    margin-left: 190px;
+    color: rgb(173, 173, 173);
+}
+
+.courses .webs4{
+    display: inline-block;
+}
+
+.courses .webs4 span{
+    margin-left: 10px;
+    color: rgb(173, 173, 173);
+}
+
+.courses .learning2{
+    width: 28%;
+    height: 530px;
+    border: solid 2px rgb(219, 219, 219);
+    display: inline-block;
+    margin-inline: 1%;
+    border-radius: 4px;
+
+}
+
+.courses .learning2 img{
+    width: 100%;
+    height: 275px;
+    display: block;
+}
+
+.courses .website h2,span{
+    display: inline-block;
+}
+
+.courses .website h2{
+    width: 28%;
+    height: 32px;
+    margin-left: 10px;
+    background-color: rgb(19,212,42);
+    border-radius: 4px;
+    text-align: center;
+    font-size: 19px;
+    padding-top: 5px;
+    color: white;
+    margin-top: 10px;
+}
+
+.courses .website span{
+    font-weight: bold;
+    color: rgb(96, 96, 96);
+    margin-left: 240px;
+}
+
+.courses .website h3{
+    padding-top: 15px;
+}
+
+.courses .website a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-left: 12px;
+}
+
+.courses .website a:hover{
+    color: rgb(19, 212, 42);
+}
+
+.courses .website p{
+    width: 94%;
+    height: 80px;
+    margin-left: 12px;
+    padding-top: 16px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.courses .website2 img{
+    width: 10%;
+    height: 42px;
+    margin-left: 10px;
+    margin-top: 10px; 
+    border-radius: 50%;   
+}
+
+.courses .website2 img,h6{
+    display: inline-block;
+}
+
+.courses .website2 h6{
+    margin-left: 8px;
+    font-size: 15px;
+    color: gray;
+}
+
+.courses .website3{
+    display: inline-block;
+}
+
+.courses .website3 li{
+    margin-left: 215px;
+    color: rgb(173, 173, 173);
+}
+
+.courses .website4{
+    display: inline-block;
+}
+
+.courses .website4 dt{
+    margin-left: 10px;
+    color: rgb(173, 173, 173);
+}
+
+
+.courses .learning3{
+    width: 28%;
+    height: 530px;
+    border: solid 2px rgb(219, 219, 219);
+    display: inline-block;
+    border-radius: 4px;
+    
+}
+
+.courses .learning3 img{
+    width: 100%;
+    height: 275px;
+    display: block;
+}
+
+.courses .desgin h5,span{
+    display: inline-block;
+}
+
+.courses .desgin h5{
+    width: 25%;
+    height: 32px;
+    margin-left: 10px;
+    background-color: rgb(19, 212, 42);
+    border-radius: 4px;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 5px;
+    color: white;
+    margin-top: 10px;
+}
+
+.courses .desgin span{
+    font-weight: bold;
+    color: rgb(96, 96, 96);
+    margin-left: 250px;
+}
+
+.courses .desgin h4{
+    padding-top: 15px;
+    font-size: 19px;
+}
+
+.courses .desgin a{
+    text-decoration: none;
+    color: black;
+    margin-left: 12px;
+}
+
+.courses .desgin a:hover{
+    color: rgb(19, 212, 42);
+}
+
+.courses .desgin p{
+    width: 94%;
+    height: 80px;
+    margin-left: 12px;
+    padding-top: 16px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.courses .desgin2 img{
+    width: 10%;
+    height: 42px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.courses .desgin2 img,h4{
+    display: inline-block;
+}
+
+.courses .desgin2 h4{
+    margin-left: 8px;
+    font-size: 14px;
+    color: gray;
+}
+
+.courses .desgin3{
+    display: inline-block;
+}
+
+.courses .desgin3 li{
+    margin-left: 180px;
+    color: rgb(173, 173, 173);
+}
+
+.courses .desgin4{
+    display: inline-block;
+}
+
+.courses .desgin4 dt{
+    margin-left: 5px;
+    color: rgb(173, 173, 173);
+}
+
+.courses .desgin4 i{
+    margin-left: 8px;
+}
+/* end courses */
+
+
+/* start testimonial */
+
+.testimonial{
+    width: 100%;
+    height: 700px;
+    /* background-color: skyblue; */
+}
+
+.testimonial .monial{
+    width: 28%;
+    height: 540px;
+    border: solid 2px rgb(219, 219, 219);
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.testimonial .monial1 img{
+    width: 100%;
+    height: 330px;
+    background-size: cover;
+    /* display: block; */
+}
+
+.testimonial .monial1 h3{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.testimonial .monial1 h5{
+    margin-left: 156px;
+    padding-top: 5px;
+    color: gray;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.testimonial .monial1 p{
+    margin-left: 27px;
+    padding-top: 20px;
+    color: gray;
+}
+
+.testimonial .monial1 li,dt,a,span{
+    display: inline-block;
+}
+
+.testimonial .monial1 li{
+    margin-left: 155px;
+    padding-top: 25px;
+}
+
+
+.testimonial .monial2{
+    width: 28%;
+    height: 540px;
+    border: solid 2px rgb(219, 219, 219);
+    display: inline-block;
+    border-radius: 3px;
+    margin-inline: 1%;
+    
+}
+
+.testimonial .monial2 img{
+    width: 100%;
+    height: 330px;
+    
+}
+
+.testimonial .monial2 h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.testimonial .monial2 h4{
+    margin-left: 175px;
+    padding-top: 5px;
+    color: gray;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.testimonial .monial2 p{
+    margin-left: 40px;
+    padding-top: 20px;
+    color: gray;
+}
+
+.testimonial .monial2 li{
+    margin-left: 155px;
+    padding-top: 25px;
+}
+
+.testimonial .monial3{
+    width: 28%;
+    height: 540px;
+    border: solid 2px rgb(219, 219, 219);
+    display: inline-block;
+    border-radius: 3px;
+
+}
+
+.testimonial .monial3 img{
+    width: 100%;
+    height: 330px;
+    /* display: block; */
+}
+
+.testimonial .monial3 h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.testimonial .monial3 h2{
+    margin-left: 187px;
+    padding-top: 5px;
+    color: gray;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.testimonial .monial3 p{
+    margin-left: 44px;
+    padding-top: 20px;
+    color: gray;
+}
+
+.testimonial .monial3 li{
+    margin-left: 150px;
+    padding-top: 25px;
+}
+
+/* end testimonial */
+
+
+/* start footer */
+
+.footer{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(246, 246, 246);
+}
+
+.footer .list{
+    width: 28%;
+    height: 250px;
+    /* border: solid 2px orange; */
+    display: inline-block;
+    /* display: block; */
+    margin-left: 120px;  
+}
+
+
+.footer .list p{
+    margin-top: 25px;
+}
+
+.footer .list dt{
+    margin-top: 20px;
+}
+
+.footer .list span{
+    width: 10%;
+    height: 40px;
+    border: solid 1px gray;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 8px;
+    margin-left: 2px;
+}
+
+.footer .list2{
+    width: 9%;
+    height: 250px;
+    /* border: solid 2px orange; */
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.footer .list2 h3{
+    font-size: 17px;
+    
+}
+
+.footer .list2 ul{
+    margin-top: 2px;
+}
+
+.footer .list2 li{
+    margin-top: 19px;
+    word-spacing: 2px;
+}
+
+
+.footer .list2 a{
+    text-decoration: none;
+    color: gray;
+}
+
+.footer .list2 a:hover{
+    color: rgb(100, 230, 115);
+}
+
+.footer .list3{
+    width: 15%;
+    height: 250px;
+    /* border: solid 2px orange; */
+    display: inline-block;
+    margin-left: 55px;
+    /* display: block; */
+    
+}
+
+.footer .list3 h4{
+    font-size: 17px;
+}
+
+.footer .list3 ol{
+    margin-top: 2px;
+}
+
+.footer .list3 li{
+    margin-top: 19px;
+}
+
+.footer .list3 a{
+    text-decoration: none;
+    color: gray;
+}
+
+.footer .list3 a:hover{
+    color: rgb(100, 230, 115);
+}
+
+.footer .list4{
+    width: 28%;
+    height: 180px;
+    border: solid 2px orange;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.footer .list4 h5{
+    font-size: 17px;
+    margin-left: 2px;
+}
+
+.footer .list4 p{
+    margin-left: 2px;
+    margin-top: 20px;
+}
+
+.footer .list4 button{
+    width: 35%;
+    height: 35px;
+    padding: 6px 8px;
+    margin-top: 40px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    background-color: rgb(19, 212, 42);
+    color: white;
+    margin-left: 200px;
+}
+
+.footer .list5{
+    width: 86.4%;
+    height: 100px;
+    /* border: solid 1px ; */
+    margin-left: 120px;
+    margin-top: 50px;
+    background-color: rgb(222, 222, 222);
+}
+
+.list5 span,.list5 h1,.list5 p{
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.list5 span{
+    margin-left: 37%;
+    color: rgb(91,91,91);
+    margin-top: 25px;
+}
+
+.list5 h1{
+    font-size: 21px;
+}
+
+.list5 p{
+    color: rgb(91,91,91);
+}
+
+.list5 a{
+    margin-left: 40%;
+    margin-top: 10px;
+    color: rgb(91,91,91);
+}

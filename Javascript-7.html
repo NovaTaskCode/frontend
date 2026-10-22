@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> JavaScript partices</h1>
+</body>
+<script>
+    var arr = [7,5,9,1];
+    var max = math.max.apply(null, arr);
+    document.writeln(max);
+    
+    var min = math.min.apply(null,arr);
+    document.writeln(min);
+
+    var array = [1,2,3,4];
+    var newarray = [5,6,7,8];
+    array.push.apply(array,newarray);
+    document.writeln(array);
+
+    var array1 = [1,2,3,4];
+    var newarray1 = ["one","Two","Three","Four"]
+    array1.push.apply(array1,newarray1);
+    document.writeln(array1);
+</script>
+</html>

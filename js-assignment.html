@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Word Editor</title>
+    <link rel="stylesheet" href="C:\Users\HP\Desktop\amank.html\js-assgnment.css"> 
+</head>
+<body>
+    <div class="Editor-container">
+        <div class="toolbar">
+            <button id="silde" onclick="execCmd('bold')"><b>B</b></button>
+            <button id="silde2" onclick="execCmd('italic')"><i>I</i></button>
+            <button id="silde3" onclick="execCmd('underline')"><u>U</u></button>
+            <select id="4" onchange="execCmd('fontsize', this.value)">
+                <option value="3">Normal</option>
+                <option value="1">Small</option>
+                <option value="2">Medium</option>
+                <option value="4">Large</option>
+                <option value="5">X-Large</option>
+                <option value="6">XX-large</option>
+                <option value="7">Huge</option>
+            </select>
+            <input type="color" onchange="execCmd('forecolor', this.value)">
+            <button onclick="execCmd('undo')">Undo</button>
+        </div>
+        <div id="editor" contenteditable="true"></div>
+    </div>
+</body>
+
+      <script>
+        function execCmd(command, value = null)
+        {
+            document.execCommand(command,false,value);
+        }
+        {
+        document.getElementById('editor').focus();
+        }
+      </script>
+
+
+</html>

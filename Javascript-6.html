@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check age</title>
+</head>
+<style>
+    body {
+        background-color: yellow;
+        color: blue;
+    }
+    h1 {
+        color: red;
+    }
+    table {
+        border-width: 2px;
+        border-color: red;
+        border-style: solid;
+    }
+</style>
+<body>
+    <h1> Check Month Program</h1>
+    <form name="formcalc" method="post">
+        <table>
+            <tr>
+                <td>enter a month no:</td>
+                <td><input type="text" name="n1" size="10"></td>
+            </tr>
+            <tr>
+                <td>Show month no:</td>
+                <td><input type="text" name="result" size="10"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="check month" onclick="check()"></td>
+                <td><input type="reset" value="clear"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+<script>
+    function check()
+    {
+        var alpha;
+        alpha= document.formcalc.n1.value;
+        if(alpha=="a")
+    {
+        document.formcalc.result.value="vowel";
+    }
+    else if(alpha=="A")
+    {
+        document.formcalc.result.value="feb";
+    }
+    else if(alpha=="e")
+    {
+        document.formcalc.result.value="march";
+    }
+    else if(alpha=="E")
+    {
+        document.formcalc.result.value="april";
+    }
+    else 
+    {
+        document.formcalc.result.value="consonent"
+    }
+    }
+</script>
+</html>

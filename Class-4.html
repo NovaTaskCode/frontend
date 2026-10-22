@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table - Class 4</title>
+</head>
+<body>
+    <h1>📊 HTML Table - Important Tags & Attributes</h1>
+
+    <!-- Example 1: Basic Table Structure -->
+     <h2>1. Basic Table with Essential Tags</h2>
+     <div class="example">
+        <p><strong>Tags Used:</strong> &lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;</p>
+     </div>
+     <table>
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Grade</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <th>101</th>
+            <th>Alice Johnson</th>
+            <th>A</th>
+            <th>92%</th>
+        </tr>
+        <tr>
+            <th>102</th>
+            <th>Bob Smith</th>
+            <th>B+</th>
+            <th>87%</th>
+        </tr>
+        <tr>
+            <th>103</th>
+            <th>Carol White</th>
+            <th>A+</th>
+            <th>95%</th>
+        </tr>
+     </table>
+     <!-- Example 2: Table with Caption -->
+      <h2>2. Table with Caption (Describes table Purpose)</h2>
+      <div class="example">
+        <p><storng>Tag:</storng> &lt;caption&gt; - provides title for the table</p>
+      </div>
+      <table>
+        <caption>sales Report - Q1 2024</caption>
+        <tr>
+            <th>Product</th>
+            <th>January</th>
+            <th>February</th>
+            <th>March</th>
+        </tr>
+        <tr>
+            <th>Laptops</th>
+            <th>45</th>
+            <th>52</th>
+            <th>48</th>
+        </tr>
+        <tr>
+            <th>Phones</th>
+            <th>120</th>
+            <th>135</th>
+            <th>128</th>
+        </tr>
+      </table>
+      <!-- Example 3: Table with tbody, thead, tfoot -->
+       <h2>3. Semantic Table Structure with thead, tbody, tfoot</h2>
+       <div class="example">
+        <p><storng>Tags:</storng> &lt;thead&gt; (herder), &lt;tbody&gt; (body), &lt;tfoot&gt; (footer)</p>
+       </div>
+       <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Pen</th>
+                <th>10</th>
+                <th>$2</th>
+                <th>$20</th>
+            </tr>
+            <tr>
+                <th>Notebook</th>
+                <th>5</th>
+                <th>$5</th>
+                <th>$25</th>
+            </tr>
+            <tr>
+                <th>Ruler</th>
+                <th>8</th>
+                <th>$1.5</th>
+                <th>$12</th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Grand Total</th>
+                <th>23</th>
+                <th>-</th>
+                <th>$57</th>
+            </tr>
+        </tfoot>
+       </table>
+       <!-- Example 4: Table with colspan and rowspan -->
+        <h2>4. Table with colspan and rowspan Attributes</h2>
+        <div class="example">
+        <p><storng>Attributes:</storng> colspan (merge columns),rowspan (merge rows)</p>
+        </div>
+             <table>
+                <tr>
+                    <th colspan="2">Student Information</th>
+                    <th>Score</th>
+                </tr>
+                <tr>
+                    <td>First name</td>
+                    <td>Last name</td>
+                    <td rowspan="2">95</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                </tr>
+             </table>
+             
+             <!-- Example 5: Table with Attributes -->
+              <h2>5. Table Attributes - border, cellpadding, cellspacing, width</h2>
+              <div class="example">
+                <p><storng>Common Attributes:</storng></p>
+                <ul>
+                    <li><storng>Border:</storng>Visible border width</li>
+                    <li><storng>Cellpadding:</storng> Space inside cells</li>
+                    <li><storng>Cellspacing:</storng> Space between cells</li>
+                    <li><storng>Width:</storng> Table width (pixels or %)</li>
+                    <li><storng>Align:</storng> Table alignment</li>
+                </ul>
+              </div>
+              <table border="2" cellpadding="15" cellspacing="5" width="100%">
+                <tr>
+                    <th>Department</th>
+                    <th>Employees</th>
+                    <th>Budget</th>
+                </tr>
+                <tr>
+                    <td>IT</td>
+                    <td>25</td>
+                    <td>$500K</td>
+                </tr>
+                <tr>
+                    <td>HR</td>
+                    <td>8</td>
+                    <td>$150K</td>
+                </tr>
+              </table>
+              <!-- Example 6: Table with complex structure -->
+               <h2>6. complex Table with All Features</h2>
+               <div class="example">
+                <p><strong>Combines:</strong>caption, thesd, tbody, tfoot, colspan, rowspan,</p>
+               </div>
+               <table>
+                <caption>Employee performance Matrix - 2024</caption>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Employee</th>
+                        <th colspan="2">Q1 performance</th>
+                        <th colspan="2">Q2 performance</th>
+                    </tr>
+                    <tr>
+                        <th>Rating</th>
+                        <th>Bonus</th>
+                        <th>Rating</th>
+                        <th>Bonus</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sarah</td>
+                        <td>5/5</td>
+                        <td>$1000</td>
+                        <td>4.5/5</td>
+                        <td>$900</td>
+                    </tr>
+                    <tr>
+                        <td>Mike</td>
+                        <td>4/5</td>
+                        <td>$800</td>
+                        <td>5/5</td>
+                        <td>$1000</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5"><storng>Total Bonuses Distributed: $3700</storng></td>
+                    </tr>
+                </tfoot>
+               </table>
+               <h2>📝 Key Takeaways</h2>
+               <ul>
+                <li><strong>&lt;table&gt;</strong>- Container for the entire table</li>
+                <li><strong>&lt;tr&gt;</strong>- Table row</li>
+                <li><strong>&lt;th&gt;</strong>- Table header(bold, centered by default)</li>
+                <li><strong>&lt;td&gt;</strong>- Table data cell</li>
+                <li><strong>&lt;caption&gt;</strong>- Table title/description</li>
+                <li><storng>&lt;thead&gt;</storng>- Groups header rows (semantic)</li>
+                <li><strong>&lt;tbody&gt;</strong>- Groups body rows (semantic)</li>
+                <li><storng>&lt;tfoot&gt;</storng>- Groups footer rows (semantic)</li>
+                <li><storng>&lt;colspan&gt;</storng>- Merges columns</li>
+                <li><strong>&lt;rowspan&gt;</strong>- Merges rows</li>
+               </ul>
+         </body>
+   </html>

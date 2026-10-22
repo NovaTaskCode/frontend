@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* start container*/
+
+#container{
+     height: 300px;
+     overflow: scroll;
+     scroll-timeline-name: --square-timeline;
+     position: relative;
+}
+
+/* end container */
+
+#square{
+    background-color: deeppink;
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+    margin-left: 20%;
+    /* border-radius: 50%; */
+    animation-name: rotateAnimation;
+    animation-duration: 1ms;
+    animation-direction: alternate;
+    animation-timeline: --square-timeline;
+
+    position: absolute;
+    bottom: 0;
+}
+
+@keyframes rotateAnimation{
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+#stretcher{
+    height: 1100px;
+
+    
+}
+
+
+@keyframes fadeIn{
+    from{ opacity: 0;}
+    to{ opacity: 1;}
+}
+
+
+div{
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}

@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body h4{
+    padding-top: 15px;
+}
+
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 190 px;
+    
+}
+
+ #home td{
+    width: 6vw;
+    
+}

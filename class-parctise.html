@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Row In Table</title>
+</head>
+<body>
+    <table id="data" border="1" cellpadding="10px" cellspacing="0" width="80%" align="center">
+        <tr>
+            <th>Sr No.</th>
+            <th>University/Board</th>
+            <th>Passing Year</th>
+            <th>Total Marks</th>
+            <th>Obtain Marks</th>
+        </tr>
+    </table>
+    <br/>
+    <input type="button" value="ADD ROW" onclick="add_row()"/>
+    <input type="button" value="REMOVE ROW" onclick="remove_row()">
+
+</body>
+
+      <script>
+        var count=1;
+        function add_row()
+        {
+            var d=document.getElementById("data").innerHTML;
+            var x="<tr><td>"+count+"</td><td><input type='text'/></td><td><input type='number'/></td><td><input type='number'/></td><td><input type='number'/></td></tr>"
+            document.getElementById("data").innerHTML=d+x;
+            count++;    
+        }   
+
+        var count=1;
+        function remove_row()
+        {
+            var d=document.getElementById("data").innerHTML;
+            
+        }
+
+
+      </script>
+
+</html>

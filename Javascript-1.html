@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check age </title>
+</head>
+<style>
+    body {
+        background-color: yellow;
+        color: blue;
+    }
+    h1 {
+        color: red;
+    }
+    table {
+        border-width: 2px;
+        border-color: red;
+        border-style: solid;
+    }
+</style>
+<body>
+    <h1> Check Month Program</h1>
+    <form name="formcalc" method="post" action="submit.html">
+        <table>
+            <tr>
+                <td>enter a month No:</td>
+              <td><input type="text" name="n1" size="10"></td>
+            </tr>
+              <tr>
+                <td>show month name:</td>
+                <td><input type="text" name="result" size="10"></td>
+              </tr>
+              <tr>
+                <td><input type="button" value="check month" onclick="check()"></td>
+                <td><input type="reset" value="clear"></td>
+              </tr>
+        </table>
+    </form>
+</body>
+<script>
+    function check()
+    {
+        var month;
+        month =
+        Number(document.formcalc.n1.value);
+        if (month == 1)
+    {
+        document.formcalc.result.value ="jan";
+    }
+    else if(month == 2)
+    {
+        document.formcalc.result.value = "feb";
+    }
+    else if (month == 3)
+    {
+        document.formcalc.result.value = "march";
+    }
+    else if(month == 4)
+    {
+        document.formcalc.result.value = "apri";
+    }
+    else if(month == 5)
+    {
+        document.formcalc.result.value = "may";
+    }
+    else if(month == 6)
+    {
+        document.formcalc.result.value = "june";
+    }
+    else if(month == 7)
+    {
+        document.formcalc.result.value = "july";
+    }
+    else if(month == 8)
+    {
+        document.formcalc.result.value = "aug";
+    }
+    else if(month == 9)
+    {
+        document.formcalc.result.value = "sep";
+    }
+    else if(month == 10)
+    {
+        document.formcalc.result.value = "oct";
+    }
+    else if(month == 11)
+    {
+        document.formcalc.result.value ="nov";
+    }
+    else if(month ==12)
+    {
+        document.formcalc.result.value = "Dec";
+    }
+    else
+    {
+        document.formcalc.result.value = "invalid month"
+    }
+    }
+</script>
+</html>

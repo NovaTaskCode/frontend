@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>querySelectorAll Example</title>
+</head>
+<body>
+    <h2 class="highlight">Heading One</h2>
+    <h2 class="hightlight">Heading Two</h2>
+    <h2 id="a">Heading Three</h2>
+    <h2>Heading Three </h2>
+</body>
+<script>
+    const elements = document.querySelectorAll('.highlight');
+    elements.forEach((element) => {
+        element.style.color = 'red';
+    });
+
+    const elements1 = document.querySelectorAll('#a');
+    elements1.forEach((element) => {
+        element.style.color ='pink';
+    });
+</script>
+</html>

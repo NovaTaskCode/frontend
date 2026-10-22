@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\HP\Desktop\amank.html\slider.css">
+    <title>Silder</title>
+</head>
+      <!-- <style>
+        .slide{
+            display: none;
+        }
+        .active{
+            display: block;
+        }
+        .slide{
+            width: 100%;
+            height: 500px;
+        }
+      </style> -->
+
+<body>
+    <div class="box">
+        <div class="slide">
+            <img src="C:/Users/HP/Downloads/51IytYE3i8L._AC_UY1100_.jpg">
+        </div>
+        <div class="slide active">
+            <img src="C:/Users/HP/Downloads/images (3).jpg">
+        </div>
+        <div class="slide">
+            <img src="C:/Users/HP/Downloads/images.png">
+        </div>
+        <div class="slide">
+            <img src="C:/Users/HP/Downloads/51IytYE3i8L._AC_UY1100_.jpg">
+        </div>
+        <div class="slide">
+            <img src="C:/Users/HP/Downloads/images.png">
+        </div>
+
+    <button id="left" onclick="left();">&lt;</button> <button id="right" onclick="right();">&gt;</button>
+    </div>
+</body>
+ <script>
+       
+       let current=0;
+       let slide = document.querySelectorAll('.slide');
+
+       function left() {
+           for (var i = 0; i < slide.length; i++) {
+           slide[i].classList.remove('active');
+        }
+        current--;
+            if(current<0) {
+            current = (slide.length-1);
+        }
+        slide[current].classList.add('active');
+       }
+       function right() {
+             for (var i = 0; i < slide.length; i++) {
+             slide[i].classList.remove('active');   
+        }
+        current++;
+        if(current>slide.length-1){
+            current = 0;
+        }    
+        slide[current].classList.add('active');
+       }
+
+       setInterval(right,1000);
+</script>
+</html>

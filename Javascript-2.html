@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week Day </title>
+</head>
+<style>
+    body {
+        background-color: bisque;
+        color: blue;
+    }
+    h1 {
+        color: red;
+    }
+</style>
+<body>
+    <h1> Check age program</h1>
+    <form name="formcalc" method="post">
+        <table>
+            <tr>
+                <td>Enter a Weekday:</td>
+                <td><input type="text" name="n1" size="10"></td>
+            </tr>
+            <tr>
+                <td>Show Weekday name:</td>
+                <td><input type="text" name="result" size="10"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="check Week" onclick="calculate()"></td>
+                <td><input type="reset" value="clear"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+<script>
+    function calculate()
+    {
+        var Weekday;
+        Weekday=
+        Number(document.formcalc.n1.value);
+        switch(Weekday)
+    {
+        case 1:
+            
+        document.formcalc.result.value = "Monday";
+        break;
+        case 2:
+            
+        document.formcalc.result.value = "Tusday";
+
+        break;
+        case 3:
+
+        document.formcalc.result.value = "Wednesday";
+
+        break;
+        case 4: 
+
+        document.formcalc.result.value = "Thrusday";
+
+        break;
+        case 5: 
+
+        document.formcalc.result.value = "Friday";
+
+        break;
+        case 6: 
+
+        document.formcalc.result.value = "Saturday";
+
+        break;
+        case 7:
+
+        document.formcalc.result.value = "Sunday";
+
+        break;
+
+        default:
+
+        document.formcalc.result.value = "invalid"
+        break;
+    }
+    }
+</script>
+</html>

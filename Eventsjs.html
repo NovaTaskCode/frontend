@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events programs</title>
+</head>
+<body>
+    <button id="myBtn">click Me</button>
+    <!-- <button id="myBtn2" onclick="change()"></button>  -->
+</body>
+
+      <script>
+        // let el =document.getElementById("myBtn");
+        // el.onclick = function() {
+        //     alert("clicked!");
+        // }
+
+        // let change = function() {
+        //     alert("clicked!");
+        // }
+
+        // let el = document.getElementById("myBtn");
+        // el,addEventListener("click", function() {
+        //     alert("clicked!");
+        // });
+        document.write("<br>")
+        document.write("<br>")
+
+        let evt = document.createEvent("Event");
+        evt.initEvent("click", true, true);
+        el.dispatchEvent(evt);
+        document.write(evt);
+        
+
+        document.body.addEventListener("click", function(event) {
+            document.write("body clicked");
+        });
+
+
+
+
+
+      </script>
+
+
+</html>

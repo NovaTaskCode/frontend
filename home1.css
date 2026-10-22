@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+ body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;  
+    flex-direction: column;
+    align-items: center;
+    
+ }
+
+ body label,input{
+   margin-top: 20px;
+ }
+
+
+ body input{
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 28%;
+    
+ }
+
+ #v1{
+   display: flex;
+   flex-direction: column;
+   width: 15%;
+   height: 25px;
+   margin-top: 8px;
+ }

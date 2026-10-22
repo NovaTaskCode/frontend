@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+              <html lang="en">
+            <head>
+                 <meta charset="UTF-8">
+                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>HTML Topics:Attributes, image map, file paths, marquee</title>
+              </head>
+               <body>
+ <h1>HTML Teaching Examples</h1>
+                    
+           <h2>Attributes</h2>
+                          <p>Attributes provide additional information about HTML elements. For example:</p>
+                            <img src="C:\Users\HP\Desktop\computer phone coffee.jpg" alt="workplace" width="500" height="300" title="An example image">
+                            <p>The img element above has attributes: src(source),alt (altemative text),width, height,amd title.</p>  
+
+           <h2>images</h2>
+                         <p>Image are embedded using the &lt;img&gt;tag. Here are Examples with different attributes:</p>                  
+                       <img src="C:\Users\HP\Desktop\one people.webp" alt="girl" style="border: ;" 5px height="300">
+                       <img src="C:\Users\HP\Downloads\programming-background-collage.jpg" alt="chania" width="200" height="150">
+
+          <h2>Image Map</h2>
+          <h3>image Map Example</h3>
+          <img src="C:\Users\HP\Desktop\workplace.jpg" alt="workplace" usemap="workmap">
+          <map name="workmap">
+               <area shape="rect" coords="34,44,270,350" alt="computer" href="computer.htm">
+               <area shape="rect" coords="290,172,333,250" alt="phone" href="phone.htm">
+               <area shape="circle" coords="337,300,44" alt="coffee" href="coffee.htm">
+          </map>
+          <p>click on the computer, phone, or coffee cup in the image above.</p>
+          
+          <h2>HTML File paths</h2>
+             <p>File Paths specify the location of files. Examples:</p>
+             <ul>
+               <li>Absolute path:<code>&lt;img src="https://www.w3schools.com/html/img_girl.jpg"&gt;</code></li>
+               <li>Relative path:<code>&lt;img src="images>/img_girl.jpg"&gt;</code> (assuming images Folder in same directory)</li> 
+               <li>Root-relative path: <code>&lt;img src="/html/img_girl.jpg"&gt;</code></li>
+          </ul> 
+          <img src="C:\Users\HP\Desktop\one people.webp" alt="girl with absolute path">
+
+          <h2>Marquee</h2>
+             <p>The &lt;marquee&gt; tag creates scrolling text (deprecated but for teaching purposes):</p>
+               <marquee behavior="scroll" direction="left">This is a scrolling text example</marquee>
+               <marquee behavior="alternate" direction="right" style="color: red;">Alternating scroll</marquee>
+         </body>
+  </html>

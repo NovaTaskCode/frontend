@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show my calculate</title>
+</head>
+<style>
+    body {
+        background-color: pink;
+        color: green;
+    }
+    h1 {
+        background-color: yellow;
+        color: red;
+        font-size: 20pt;
+        font-family: arial;
+    }
+    table {
+        background-color: green;
+        color: bisque;
+    }
+    input {
+        background-color: green;
+        color: bisque;
+    }
+</style>
+<body>
+    <h1> Calculate !!!!!!!!!!!</h1>
+
+    <form name="formcalc" method="post">
+    <table bgcolor="yellow" border="3">
+        <tr>
+            <td>num1:</td>
+            <td><input type="text" name="n1" size="10"></td>
+        </tr>
+        <tr>
+            <td>num2:</td>
+            <td><input type="text" name="n2" size="10"></td>
+        </tr>
+        <tr>
+            <td>result:</td>
+            <td><input type="text" name="result" size="10"></td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="+" onclick="calculator()">
+           <input type="button" value="-" onclick="calculator1()"> </td>
+
+            <td><input type="button" value="*" onclick="calculator2()">
+            <input type="button" value="/" onclick="calculator3()">
+            <input type="button" value="%" onclick="calculator4()">
+            <input type="reset" value="clear"> </td>
+        </tr>
+    </table>
+    </form>
+</body>
+<script>
+    function calculate()
+    {
+        var num1,num2,sum;
+        num1= Number(document.formcalc.n1.value);
+        num2= Number(document.formcalc.n2.value);
+        sum= num1+num2;
+        document.formcalc.result.value=sum;
+    }
+    function calculate1()
+    {
+        var num1,num2,sub;
+        num1 = Number(document .formcalc.n1.value);
+        num2 = Number(document.formcalc.n2.value);
+        sub =num1-num2;
+        document.formcalc.result.value=sub;
+    }
+    function calculate2()
+    {
+        var num1 ,num2,mult;
+        num1= Number(documnet.formcalc.n1.value);
+        num2= Number(document.formcalc.n2.value);
+        mult=num1*num2;
+        document.formcalc.result.value=mult;
+    }
+    function calculator3()
+    {
+        var num1,num2,divide;
+        num1= Number(document.formcalc.n1.value);
+        num2= Number(document.formcalc.n2.value);
+        divide= num1/num2;
+        document.formcalc.result.value=divide;
+    }
+    function calculate4()
+    {
+        var num1,num2,modulo;
+        num1= Number(document.formcalc.n1.value);
+        num2= Number(document.formcalc.n2.value);
+        modulo=num1%num2;
+        document.formcalc.result.value=modulo;
+    }
+</script>
+</html>
